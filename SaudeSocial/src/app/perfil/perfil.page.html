@@ -1,13 +1,43 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>perfil</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">perfil</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content><div class="profile-container">
+  <ion-img class="profile-image" src="../../assets/Images/image-placeholder.png"
+    alt="Profile Picture"></ion-img>
+  <h2>Carolina Da Silva Rocha</h2>
+  <p>Psicóloga</p>
+  <p>CRP: 00/00000</p>
+  <p class="consultation-price">
+    <ion-icon name="caret-forward-outline"></ion-icon>
+    Valor da consulta: R$30
+  </p>
+  <p>Abordagem: Psicanálise</p>
+  <div class="specialties">
+    <!-- You can loop through the list with *ngFor if the specialties are in an array -->
+    <p>Autoconhecimento</p>
+
+    <p>Adolescência</p>
+    <p>Depressão</p>
+    <p>Conflitos familiares</p>
+    <p>Conflitos amorosos</p>
+    <p>Traumas</p>
+    <p>Insegurança</p>
+    <p>Relacionamentos</p>
+    <p>Ansiedade</p>
+  </div>
+
+  <p>
+    <ion-icon size="large" name="people-outline"></ion-icon>
+    Adolescentes, Adultos, Idosos
+  </p>
+  <h3>Sobre mim:</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+
+  <div class="contact-section">
+    <ion-button expand="block" fill="solid" color="success">
+      <ion-icon slot="start" name="logo-whatsapp"></ion-icon>
+      Quero me consultar
+    </ion-button>
+    <p>Telefone: (53) 99175-9921</p>
+  </div>
+</div>
 </ion-content>

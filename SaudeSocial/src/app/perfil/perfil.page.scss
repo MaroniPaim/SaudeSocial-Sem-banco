@@ -1,0 +1,65 @@
+.profile-container {
+    background-color: #f6e6d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  
+    .profile-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+  
+    .consultation-price {
+      color: #E74C3C; // Or any color that matches the arrow
+      display: flex;
+      align-items: center;
+      ion-icon {
+        margin-right: 10px;
+      }
+    }
+  
+    .specialties {
+    
+        padding: 5px 40px;  // Increase horizontal padding to make it longer
+        border-radius: 20px; // Increase border-radius for a more oval appearance
+        margin: 5px 0; 
+        font-size: 0.9em; // Slightly reduce font size
+        width: 80%;  // Set a maximum width
+        text-align: center;  // Center the text
+        margin-left: auto;  // Center the specialty block horizontally
+        margin-right: auto;
+        color: black;
+        p {
+            margin-top: 15px;
+            
+            color: black;
+          }
+        
+  }
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+  
+    ion-button {
+      
+      font-weight: bold;
+    }
+  
+    p {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #555;
+    }
+  }
+}
+h3{
+    color: black;
+}
+h2{font-weight: bold;}
